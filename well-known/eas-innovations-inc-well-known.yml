@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/* on production hosts
+host: https://www.elev8automotive.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No .well-known discovery documents are published. Marketing site is served
+  by Webflow/Cloudflare; the product application lives at app.elev8dms.com.
+  No public developer API, OpenAPI, or authorization-server metadata found.
