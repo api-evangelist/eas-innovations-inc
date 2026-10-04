@@ -1,5 +1,5 @@
 aid: eas-innovations-inc
-name: EAS Innovations Inc
+name: ELEV8
 description: >-
   EAS Innovations Inc operates ELEV8, an end-to-end, cloud-based dealer management
   system (DMS) built for independent auto dealers and automotive finance companies.
@@ -50,7 +50,7 @@ tags:
 - Software-as-a-Service
 - CRM
 - Accounting
-- Inventory Management
+- Inventory
 - Auto Finance
 - Payments
 tags_raw:
@@ -92,3 +92,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: EAS Innovations Inc
